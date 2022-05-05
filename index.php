@@ -211,10 +211,10 @@ require_once("language/lang.".$lang.".php");
                     <div class="col-md-6 col-xs-12 col-sm-6">
                         <div class="top-info-right">
                             <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/ecimaconsulting"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/ConsultingEcima?s=20&t=mh193qm0qvzEbFLKKqlLzg"><i class="fa fa-twitter"></i></a></li>
 
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/ecima-consulting/"><i class="fa fa-linkedin"></i></a></li>
 
                             </ul>
                         </div>
@@ -235,9 +235,9 @@ require_once("language/lang.".$lang.".php");
                     </button>
                     <div class="row hidden-xs hidden-sm">
                         <div class="col-md-4 "><img src="assets/img/ecima/ecima-group-logo.png" alt="" style="width: 80px"></div>
-                        <div class="col-md-8"><a class="navbar-brand" href="view/home.php?lang=<?php echo $lang ?>">ECIMAGROUP</a></div>
+                        <div class="col-md-8"><a class="navbar-brand" href="?lang=<?php echo $lang ?>">ECIMAGROUP</a></div>
                     </div>
-                    <a class="navbar-brand hidden-lg hidden-md" style="font-size: 24px" href="view/home.php?lang=<?php echo $lang ?>">ECIMAGROUP</a>
+                    <a class="navbar-brand hidden-lg hidden-md" style="font-size: 24px" href="?lang=<?php echo $lang ?>">ECIMAGROUP</a>
 
                 </div>
                 <div class="navbar-collapse collapse">
@@ -251,10 +251,10 @@ require_once("language/lang.".$lang.".php");
                             <li>
 
                                 <?php if($lang == 'en'){?>
-                                    <a class="smoth-scroll" href="view/home.php?lang=fr">FR</a>
+                                    <a class="smoth-scroll" href="?lang=fr">FR</a>
 
                                 <?php } elseif ($lang == 'fr') {?>
-                                    <a class="smoth-scroll" href="view/home.php?lang=en">EN</a>
+                                    <a class="smoth-scroll" href="?lang=en">EN</a>
                                 <?php }?>
 
                             </li>
