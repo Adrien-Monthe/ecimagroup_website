@@ -1,0 +1,20 @@
+#--------------------------------------------------
+# Répertoire : /include/
+#--------------------------------------------------
+
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+#RewriteCond %{SERVER_PORT} 80
+#RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule ^(.*)$ http://wwww.perfitcom.com/$1 [R,L]
+#--------------------------------------------------
+# Règles de réécriture d'URL :
+#--------------------------------------------------
+RewriteRule  home$   view/home.php?lang=fr [L]
+RewriteRule  about-us$   include/qui-sommes-nous.php [L]
